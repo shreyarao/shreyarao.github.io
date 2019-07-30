@@ -283,7 +283,7 @@ d3.csv('narrative_visualization_data.csv', function (data) {
         .style("font-size", "16px") 
         .text("Renewable Energy Usage by Urban Population Growth (2014)");
 
-  svg.append('text').attr('x', 370).attr('y', 50).style('font-size', '14px').text('We can see a negative correlation');
+  svg.append('text').attr('x', 370).attr('y', 50).style('font-size', '14px').text('On the other hand, we can see a negative correlation');
   svg.append('text').attr('x', 370).attr('y', 75).style('font-size', '14px').text('between Urban Population Growth and Renewable Energy Usage.');
   svg.append('text').attr('x', 370).attr('y', 100).style('font-size', '14px').text('Hover over a data point to find out more!');
 
